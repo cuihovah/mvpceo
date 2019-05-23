@@ -1,7 +1,9 @@
-# mvpceo
+# MVPCEO
  In order to better learn enterprise management technology. To be the next King Of Worker
 
-## Todo list
+## FEATURES
+
+## TODOLIST
 
  - 员工管理
  - 项目管理
@@ -15,7 +17,7 @@
 
 Worker
 
-```json
+```
 {
   id: ObjectId,
   name: string,
@@ -30,7 +32,7 @@ Worker
 
 Project
 
-```json
+```
 {
   id: ObjectId,
   name: string,
@@ -41,7 +43,7 @@ Project
 
 Iteration
 
-```json
+```
 {
   id: ObjectId,
   project_id: string,
@@ -59,7 +61,7 @@ Iteration
 
 mission
 
-```json
+```
 {
   id: ObjectId,
   name: string,
@@ -77,7 +79,7 @@ mission
 
 Techincal
 
-```json
+```
 {
   id: ObjectId,
   name: string,
@@ -95,7 +97,7 @@ Techincal
 
 Preformance
 
-```json
+```
 {
   id: ObjectId,
   name: string,
